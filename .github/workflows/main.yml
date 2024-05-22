@@ -38,15 +38,15 @@ on:
       LOCAL_MANIFEST_BRANCH:
         description: "Personal local manifest's branch:"
         required: false
-        default: 'a34-los-21'
+        default: 'lineage-a34x'
       DEVICE_NAME:
         description: "Device's codename:"
         required: true
-        default: "a34"
+        default: "a34x"
       PRODUCT_NAME:
         description: "Product to build:"
         required: true
-        default: "lineage-a34"
+        default: "lineage-a34x-ap1a"
       BUILD_COMMAND:
         description: 'Command to be used for compiling:'
         required: true
